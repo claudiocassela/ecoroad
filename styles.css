@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.logo {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #4CAF50;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('river.gif') no-repeat center center/cover;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 5px;
+}
+
+.green-text {
+    color: #4CAF50;
+    /* "E" e o "Road" em verde */
+}
+
+.highlighted-text {
+    font-size: 3rem;
+    /* Ajuste este valor para o tamanho de fonte desejado */
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+h2 {
+    border-bottom: 4px solid #4CAF50;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+.projects h3 {
+    color: #4CAF50;
+    /* Altere para a cor verde desejada */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1 rem;
+}
+
+footer p {
+    margin: 0;
+}
